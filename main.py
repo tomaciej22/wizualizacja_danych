@@ -1,3 +1,4 @@
+from math import *
 # zad1
 a = 'napis'
 b = 'napis2'
@@ -19,6 +20,13 @@ g /= 2
 f **= 2
 e %= 2
 print(c,d,h,g,f,e)
+#zad4
+pierwiastek = pow(log(5+sin(8)**2),1/6)
+euler = exp(10)
+print(pierwiastek, euler)
+c = floor(3.55)
+d = ceil(4.2)
+print(c)
 #zad5
 imie = 'TOMASZ'
 nazwisko = 'KARKULOWSKI'
@@ -37,7 +45,6 @@ tekst = 'siaba siaba siaba'
 y = tekst.split(" ")
 print(y)
 #zad9
-a = str("cos")
-b = float(1.8)
+b = 1.8
 c = hex(2)
-print('cos %(zm)s i %(zm2)f i %(zm3)g ' % {'zm': a, 'zm2': b, 'zm3': c})
+print('cos %(zm2)f i %(zm3)f ' % {'zm2': b, 'zm3': c})
