@@ -1,50 +1,71 @@
+import sys as system
 from math import *
-# zad1
-a = 'napis'
-b = 'napis2'
-print(a, b)
-# zad2
-a = 2
-b = 2
-print(a + b)
-print(a - b)
-print(a / b)
-print(a ** b)
-print(a * b)
-# zad3
-c, d, e, f, g, h = 2, 2, 2, 2, 2, 2
-c += 2
-d -= 2
-h *= 2
-g /= 2
-f **= 2
-e %= 2
-print(c,d,h,g,f,e)
+#zad1
+#lista = ["Koszykowka", "Pilka nozna", "Siatkowka"]
+#lista.reverse()
+#print(lista)
+#zmienna = ["Rugby"]
+#lista.extend(zmienna)
+#print(lista)
+#zad2
+#slownik = {"BTTS": "both teams to score", "DNB": "draw no bet", "U/O":"Under/Over"}
+#print(slownik)
+#zad3
+#slownik = {"CSGO": 10, "LOL": 10}
+#cos = len(slownik)
+#print(cos)
 #zad4
-pierwiastek = pow(log(5+sin(8)**2),1/6)
-euler = exp(10)
-print(pierwiastek, euler)
-c = floor(3.55)
-d = ceil(4.2)
-print(c)
+#zdanie = input("Wpisz cos ")
+#zmienna = zdanie.count("a")
+#print(zmienna)
 #zad5
-imie = 'TOMASZ'
-nazwisko = 'KARKULOWSKI'
-zmiennaimie = imie.capitalize()
-zmiennanazwisko = nazwisko.capitalize()
-print(zmiennaimie, zmiennanazwisko)
+#system.stdout.write("Wpisz cos: ")
+#a = system.stdin.readline()
+#b = system.stdin.readline()
+#c = system.stdin.readline()
+#pow = int(a)**int(b)
+#system.stdout.write(pow)
 #zad6
-tekst = ['siaba', 'siaba']
-x = tekst.count("siaba")
-print(x)
+#a = input("Wpisz pierwsza liczbe: ")
+#b = input("Wpisz druga liczbe: ")
+#c = input("Wpisz trzecia liczbe: ")
+#if (a > b):
+  #  if a > c:
+  #      print(a)
+  #  else:
+   #     print(c)
+#elif (b > c):
+#    print(b)
+#else:
+#    print(c)
 #zad7
-imie = 'stefan'
-print(imie[1], imie[5])
+#lista1 = [1, 2, 3, 4, 5, 2.2, 3.3]
+#cos1 = len(lista1)
+#for x in lista1:
+ #   wynik = lista1[x]**2
+ #   print(wynik)
 #zad8
-tekst = 'siaba siaba siaba'
-y = tekst.split(" ")
-print(y)
+#lista = [1,2,3,4,5,6,7,8,9,10]
+#cos = len(lista)
+#i = 0
+#while i<cos:
+  #  i+=1
+  #  if (lista[i]%2 > 0):
+  #      continue
+   # print(lista[i])
 #zad9
-b = 1.8
-c = hex(2)
-print('cos %(zm2)f i %(zm3)f ' % {'zm2': b, 'zm3': c})
+#lista = [1, 2, 3, 4, 5, 6]
+#cos = len(lista)-1
+#for i in range(0,cos):
+   # if (lista[i]%2 > 0):
+    #    lista[i] = 'EEEEEE'
+   # elif (lista[i]%2 == 0):
+    #    lista[i] = 'E'
+   # print(lista[i])
+#zad10
+#a = input("Podaj liczbe: ")
+#try:
+ #   wynik = sqrt(int(a))
+ #   print(wynik)
+#except:
+ #   print("Nie podawaj ujemnej liczby")
