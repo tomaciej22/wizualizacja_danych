@@ -1,71 +1,60 @@
-import sys as system
-from math import *
 #zad1
-#lista = ["Koszykowka", "Pilka nozna", "Siatkowka"]
-#lista.reverse()
-#print(lista)
-#zmienna = ["Rugby"]
-#lista.extend(zmienna)
-#print(lista)
+# zbior_A = [1-x for x in range(1,11)]
+# print(zbior_A)
+# zbior_B = [4**y for y in range(11)]
+# print(zbior_B)
+# zbior_C = [z for z in zbior_B if (z%2 == 0)]
+# print(zbior_C)
 #zad2
-#slownik = {"BTTS": "both teams to score", "DNB": "draw no bet", "U/O":"Under/Over"}
-#print(slownik)
+# import random
+# losowe = []
+# for x in range(9):
+#     losowe.append(random.randint(1, 30))
+# print(losowe)
+# parzyste = [x for x in losowe if x % 2 == 0]
+# print(parzyste)
 #zad3
-#slownik = {"CSGO": 10, "LOL": 10}
-#cos = len(slownik)
-#print(cos)
+# produkty = {"bułki": "sztuki", "mąka": "kg", "gruszki": "sztuki", "śliwki": "sztuki"}
+# lista = [keys for keys, values in produkty.items() if values == "sztuki"]
+# print(produkty)
+# print(lista)
 #zad4
-#zdanie = input("Wpisz cos ")
-#zmienna = zdanie.count("a")
-#print(zmienna)
+# def spr_trj(a,b,c):
+#     if((a^2+b^2)==c^2):
+#         print("OK")
+#     else:
+#         print("NIE OK")
+# spr_trj(3,4,5)
 #zad5
-#system.stdout.write("Wpisz cos: ")
-#a = system.stdin.readline()
-#b = system.stdin.readline()
-#c = system.stdin.readline()
-#pow = int(a)**int(b)
-#system.stdout.write(pow)
+# def pol_trapeza(a=1,b=2,h=2):
+#     wynik = ((a+b)*h)/2
+#     return wynik
+# print(pol_trapeza())
 #zad6
-#a = input("Wpisz pierwsza liczbe: ")
-#b = input("Wpisz druga liczbe: ")
-#c = input("Wpisz trzecia liczbe: ")
-#if (a > b):
-  #  if a > c:
-  #      print(a)
-  #  else:
-   #     print(c)
-#elif (b > c):
-#    print(b)
-#else:
-#    print(c)
+# def ciag(a=1,b=4,ile=10):
+#     for i in range(ile):
+#         a*=b
+#     return a
+# print(ciag())
 #zad7
-#lista1 = [1, 2, 3, 4, 5, 2.2, 3.3]
-#cos1 = len(lista1)
-#for x in lista1:
- #   wynik = lista1[x]**2
- #   print(wynik)
+# def ciag2(* cos):
+#     a = 1
+#     for i in cos:
+#         a*=4
+#     return a
+# print(ciag2(1,2,3,4,5,6,7,8,9,10))
 #zad8
-#lista = [1,2,3,4,5,6,7,8,9,10]
-#cos = len(lista)
-#i = 0
-#while i<cos:
-  #  i+=1
-  #  if (lista[i]%2 > 0):
-  #      continue
-   # print(lista[i])
+# zakupy = {"maka": 1, "cukier": 2, "chleb": 3}
+# def lista(a):
+#     b = 0
+#     c = 0
+#     for x in a.values():
+#         b += x
+#         c += 1
+#     print('Wartość:', b, "\nIlosc: ")
+#     return c
+# print(lista(zakupy))
 #zad9
-#lista = [1, 2, 3, 4, 5, 6]
-#cos = len(lista)-1
-#for i in range(0,cos):
-   # if (lista[i]%2 > 0):
-    #    lista[i] = 'EEEEEE'
-   # elif (lista[i]%2 == 0):
-    #    lista[i] = 'E'
-   # print(lista[i])
-#zad10
-#a = input("Podaj liczbe: ")
-#try:
- #   wynik = sqrt(int(a))
- #   print(wynik)
-#except:
- #   print("Nie podawaj ujemnej liczby")
+# from ciagi import arytmetyczny, geometryczny
+# arytmetyczny.aryt()
+# geometryczny.geo()
